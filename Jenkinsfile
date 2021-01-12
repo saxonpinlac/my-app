@@ -1,5 +1,5 @@
 node{
-    stage('SCM Code') {
+    stage('SCM Code'){
       git 'https://github.com/saxonpinlac/my-app'
     }
     stage('Compile Package'){
