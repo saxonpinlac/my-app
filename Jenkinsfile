@@ -4,6 +4,6 @@ node{
     }
     stage('Compile Package'){
       def mv_var = tool name: 'maven', type: 'maven'
-        sh "${mv_var}/bin/maven package"
+        sh "${mv_var}/bin/mvn package"
     }
 }
